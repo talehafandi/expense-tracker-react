@@ -1,0 +1,39 @@
+/* This contains styles of both History.js and Transactions.js */
+
+.recent-transactions{
+    list-style: none;
+    padding: 0;
+}
+.transaction{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 8px 0;
+    position: relative;
+}
+
+.delete-transaction{
+    background-color: crimson;
+    padding: 5px 8px;
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    display: none;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.transaction:hover  .delete-transaction{
+    /* background-color: dodgerblue; */
+    display: block;
+    left: -5%;
+    transition: 0.4s ease-in-out;
+}
+.transaction-green{
+    border-right: 3px solid green;
+}
+.transaction-red{
+    border-right: 3px solid crimson;
+}

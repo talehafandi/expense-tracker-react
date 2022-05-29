@@ -1,0 +1,14 @@
+.transaction-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.transaction-form input{
+    padding: 5px;
+}
+.submit{
+    background-color: #B4A5F2;
+    padding: 10px;
+    border: none;
+    color: #fff;
+}
